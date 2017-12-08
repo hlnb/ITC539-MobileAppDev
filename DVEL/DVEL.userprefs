@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="DVEL/DVEL.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Kitkat" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DVEL/DBManager.cs">
+    <Files>
+      <File FileName="DVEL/Fragments.cs" Line="69" Column="31" />
+      <File FileName="DVEL/menu/TripListViewMenu.xml" Line="11" Column="8" />
+      <File FileName="DVEL/DBManager.cs" Line="91" Column="57" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DVEL AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

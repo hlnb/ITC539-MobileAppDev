@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <ListView
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/DVELHomeView" />
+    <TableLayout
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/tableLayout1"
+        p1:layout_centerHorizontal="true">
+        <TableRow
+            p1:id="@+id/tableRow1"
+            p1:padding="5dp"
+            p1:background="#ffffffff"
+            p1:layout_marginTop="2.5dp"
+            p1:layout_marginLeft="5dp"
+            p1:layout_marginRight="5dp"
+            p1:layout_marginBottom="2.5dp">
+            <ImageView
+                p1:src="@drawable/ic_time_to_leave_black_24dp"
+                p1:layout_column="0"
+                p1:id="@+id/imageView5"
+                p1:background="#ffffffff"
+                p1:padding="5dp"
+                p1:minWidth="25px"
+                p1:minHeight="25px" />
+            <LinearLayout
+                p1:orientation="vertical"
+                p1:layout_column="1"
+                p1:id="@+id/linearLayout1">
+                <LinearLayout
+                    p1:orientation="horizontal"
+                    p1:layout_width="334.4dp"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/linearLayout2"
+                    p1:paddingRight="35dp">
+                    <TextView
+                        p1:text="Vehicle Log"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/textView8"
+                        p1:paddingTop="15dp"
+                        p1:layout_marginLeft="10dp"
+                        p1:textStyle="bold"
+                        p1:textColor="@android:color/darker_gray"
+                        p1:background="#ffffffff"
+                        p1:textSize="18sp"
+                        p1:typeface="sans" />
+                    <Space
+                        p1:layout_width="98dp"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/space1" />
+                    <Button
+                        p1:text="Got It!"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/vehGotItButton"
+                        p1:paddingTop="10dp"
+                        p1:paddingRight="5dp"
+                        p1:paddingBottom="10dp"
+                        p1:paddingLeft="5dp"
+                        p1:typeface="sans"
+                        p1:textStyle="italic"
+                        p1:textColor="@android:color/holo_blue_dark"
+                        p1:background="#ffffffff"
+                        p1:textAllCaps="true" />
+                </LinearLayout>
+                <TextView
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/textView12"
+                    p1:text="Enter your trip details, fuel and other vehicle expenses &amp; review your trip and expenses history"
+                    p1:ems="8"
+                    p1:padding="5dp"
+                    p1:background="#ffffffff" />
+                <LinearLayout
+                    p1:orientation="horizontal"
+                    p1:minWidth="25px"
+                    p1:minHeight="25px"
+                    p1:id="@+id/linearLayout3"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content">
+                    <Button
+                        p1:text="Create a Trip"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/newTripButton"
+                        p1:background="@android:color/holo_green_dark"
+                        p1:padding="5dp" />
+                    <Space
+                        p1:layout_width="89dp"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/space2" />
+                    <Button
+                        p1:text="New Expense"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/vehExpButton"
+                        p1:background="@android:color/holo_green_dark"
+                        p1:padding="5dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            p1:id="@+id/tableRow2"
+            p1:padding="5dp"
+            p1:background="#ffffffff"
+            p1:layout_marginLeft="5dp"
+            p1:layout_marginTop="2.5dp"
+            p1:layout_marginRight="5dp"
+            p1:layout_marginBottom="2.5dp">
+            <ImageView
+                p1:src="@drawable/ic_work_black_24dp"
+                p1:layout_column="0"
+                p1:id="@+id/imageView2"
+                p1:background="#ffffffff"
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:padding="5dp" />
+            <LinearLayout
+                p1:orientation="vertical"
+                p1:layout_column="1"
+                p1:id="@+id/linearLayout4">
+                <LinearLayout
+                    p1:orientation="horizontal"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/linearLayout5">
+                    <TextView
+                        p1:text="Business Log"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/textView13"
+                        p1:background="#ffffffff"
+                        p1:typeface="sans"
+                        p1:textSize="18sp"
+                        p1:textStyle="bold"
+                        p1:textColor="@android:color/darker_gray"
+                        p1:paddingTop="15dp" />
+                    <Space
+                        p1:layout_width="98dp"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/space3" />
+                    <Button
+                        p1:text="Got It"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/busGotItButton"
+                        p1:textStyle="italic"
+                        p1:textColor="@android:color/holo_blue_dark"
+                        p1:background="#ffffffff"
+                        p1:textAllCaps="true" />
+                </LinearLayout>
+                <TextView
+                    p1:text="Enter your business expenses &amp; get details of your expenses history"
+                    p1:id="@+id/textView14"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:ems="8"
+                    p1:padding="5dp" />
+                <Button
+                    p1:text="New Business Expense"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/busExpButton"
+                    p1:padding="5dp"
+                    p1:textColor="#ffffffff"
+                    p1:background="@android:color/holo_green_dark"
+                    p1:layout_marginRight="12dp" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            p1:id="@+id/tableRow3"
+            p1:padding="5dp"
+            p1:background="#ffffffff"
+            p1:layout_height="80.1dp"
+            p1:layout_marginLeft="5dp"
+            p1:layout_marginTop="2.5dp"
+            p1:layout_marginRight="5dp"
+            p1:layout_marginBottom="2.5dp">
+            <ImageView
+                p1:src="@drawable/ic_library_books_black_24dp"
+                p1:layout_column="0"
+                p1:id="@+id/imageView3"
+                p1:padding="5dp"
+                p1:minWidth="25px"
+                p1:minHeight=" 25px"
+                p1:background="#ffffffff" />
+            <LinearLayout
+                p1:orientation="vertical"
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:id="@+id/linearLayout6">
+                <LinearLayout
+                    p1:orientation="horizontal"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/linearLayout7">
+                    <TextView
+                        p1:text="Reports"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="wrap_content"
+                        p1:id="@+id/textView15"
+                        p1:textColor="@android:color/darker_gray"
+                        p1:typeface="sans"
+                        p1:textSize="18dp"
+                        p1:textStyle="bold"
+                        p1:background="#ffffffff"
+                        p1:paddingTop="15dp"
+                        p1:layout_marginLeft="10dp" />
+                    <Space
+                        p1:layout_width="140dp"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/space4" />
+                    <Button
+                        p1:text="Got It!"
+                        p1:id="@+id/reportGotItbutton"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:paddingTop="10dp"
+                        p1:paddingRight="5dp"
+                        p1:paddingBottom="10dp"
+                        p1:paddingLeft="5dp"
+                        p1:background="#ffffffff"
+                        p1:textColor="@android:color/holo_blue_dark"
+                        p1:typeface="sans"
+                        p1:textStyle="italic"
+                        p1:textAllCaps="true" />
+                </LinearLayout>
+                <TextView
+                    p1:text="Create &amp; save all your reports for taxation / business purposes"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/textView18"
+                    p1:padding="5dp"
+                    p1:ems="8" />
+                <Button
+                    p1:text="Create a Report"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/createReportButton"
+                    p1:background="@android:color/holo_green_dark"
+                    p1:textColor="#ffffffff" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            p1:id="@+id/tableRow4"
+            p1:padding="5dp"
+            p1:background="#ffffffff"
+            p1:layout_marginLeft="5dp"
+            p1:layout_marginTop="2.5dp"
+            p1:layout_marginRight="5dp"
+            p1:layout_marginBottom="2.5dp">
+            <ImageView
+                p1:src="@drawable/ic_settings_black_24dp"
+                p1:layout_column="0"
+                p1:id="@+id/imageView4"
+                p1:padding="5dp"
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:background="#ffffffff" />
+            <LinearLayout
+                p1:orientation="vertical"
+                p1:layout_column="1"
+                p1:id="@+id/linearLayout8">
+                <LinearLayout
+                    p1:orientation="horizontal"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/linearLayout9">
+                    <TextView
+                        p1:text="Settings"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/textView19"
+                        p1:background="#ffffffff"
+                        p1:typeface="sans"
+                        p1:textSize="18dp"
+                        p1:textStyle="bold"
+                        p1:layout_marginLeft="10dp"
+                        p1:textColor="@android:color/darker_gray"
+                        p1:paddingTop="15dp" />
+                    <Space
+                        p1:layout_width="140dp"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/space5"
+                        p1:padding="5dp" />
+                    <Button
+                        p1:text="Got IT!"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/settingsGotItButton"
+                        p1:textAllCaps="true"
+                        p1:textColor="@android:color/holo_blue_dark"
+                        p1:background="#ffffffff"
+                        p1:textStyle="italic"
+                        p1:padding="5dp" />
+                </LinearLayout>
+                <TextView
+                    p1:text="Enter the details of your vehicles, FBT and Tax years, Currency etc."
+                    p1:id="@+id/textView20"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:ems="8"
+                    p1:background="#ffffffff"
+                    p1:paddingRight="5dp"
+                    p1:paddingBottom="5dp"
+                    p1:paddingLeft="5dp"
+                    p1:paddingTop="0dp" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    <ProgressBar
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/progressBar"
+        p1:layout_centerInParent="true"
+        p1:visibility="gone" />
+</RelativeLayout>

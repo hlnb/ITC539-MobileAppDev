@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="trip">Trip Logbook</string>
+	<string name="vehicle">Vehicle Expenses</string>
+	<string name="business">Business Expenses</string>
+	<string name="app_name">THE D.V.E.L.</string>
+	<string name="triplist_tab_label">Trip List</string>
+	<string name="createtrip_tab_label">Create a Trip</string>
+	<string name="vehicleexpenses_tab_label">Vehicle Expense</string>
+
+	<string name="Date">21 Sep</string>
+</resources>

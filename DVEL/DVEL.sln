@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVEL", "DVEL\DVEL.csproj", "{2204A495-4CD8-4161-AEB3-EBC882DFBACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVEL.UITests", "DVEL.UITests\DVEL.UITests.csproj", "{1FE84A3D-385C-4A4D-B87B-506A59AFD70B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE84A3D-385C-4A4D-B87B-506A59AFD70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE84A3D-385C-4A4D-B87B-506A59AFD70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE84A3D-385C-4A4D-B87B-506A59AFD70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE84A3D-385C-4A4D-B87B-506A59AFD70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2204A495-4CD8-4161-AEB3-EBC882DFBACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2204A495-4CD8-4161-AEB3-EBC882DFBACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2204A495-4CD8-4161-AEB3-EBC882DFBACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2204A495-4CD8-4161-AEB3-EBC882DFBACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+/Users/heb264/Projects/DVEL/DVEL/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs

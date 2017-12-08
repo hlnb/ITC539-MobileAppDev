@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{4585FCC6-BA2D-485E-915F-38CA0A3894F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VEL</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>VEL</AssemblyName>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="SQLite.Net">
+      <HintPath>..\packages\SQLite.Net-PCL.3.0.5\lib\MonoAndroid\SQLite.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite.Net.Platform.XamarinAndroid">
+      <HintPath>..\packages\SQLite.Net-PCL.3.0.5\lib\MonoAndroid\SQLite.Net.Platform.XamarinAndroid.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLiteNetExtensions">
+      <HintPath>..\packages\SQLiteNetExtensions.1.3.0\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\SQLiteNetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite.Net.Async">
+      <HintPath>..\packages\SQLite.Net.Async-PCL.3.0.5\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLiteNetExtensionsAsync">
+      <HintPath>..\packages\SQLiteNetExtensions.Async.1.3.0\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\SQLiteNetExtensionsAsync.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VehicleInfo.cs" />
+    <Compile Include="SettingsInfo.cs" />
+    <Compile Include="TripInfo.cs" />
+    <Compile Include="ExpenseInfo.cs" />
+    <Compile Include="DVELActivity.cs" />
+    <Compile Include="VELService.cs" />
+    <Compile Include="VehicleDetailActivity.cs" />
+    <Compile Include="DBManager.cs" />
+    <Compile Include="VehicleDetailFragment.cs" />
+    <Compile Include="VehicleListFragment.cs" />
+    <Compile Include="TripListViewAdapter.cs" />
+    <Compile Include="fragments.cs" />
+    <Compile Include="TripDetailActivity.cs" />
+    <Compile Include="SQLite.cs" />
+    <Compile Include="SQLiteAsync.cs" />
+    <Compile Include="VEHListViewAdapter.cs" />
+    <Compile Include="TripListActivity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
+    <None Include="Resources\drawable\drawable\._ic_business.png" />
+    <None Include="Resources\drawable\drawable\._ic_delete.png" />
+    <None Include="Resources\drawable\drawable\._ic_launcher.png" />
+    <None Include="Resources\drawable\drawable\._ic_new.png" />
+    <None Include="Resources\drawable\drawable\._ic_placeholder.png" />
+    <None Include="Resources\drawable\drawable\._ic_refresh.png" />
+    <None Include="Resources\drawable\drawable\._ic_save.png" />
+    <None Include="Resources\drawable\drawable\ic_business.png" />
+    <None Include="Resources\drawable\drawable\ic_delete.png" />
+    <None Include="Resources\drawable\drawable\ic_launcher.png" />
+    <None Include="Resources\drawable\drawable\ic_library_books_black_24dp.png" />
+    <None Include="Resources\drawable\drawable\ic_local_gas_station_black_24dp.png" />
+    <None Include="Resources\drawable\drawable\ic_my_location_black_24dp.png" />
+    <None Include="Resources\drawable\drawable\ic_new.png" />
+    <None Include="Resources\drawable\drawable\ic_person_black_24dp.png" />
+    <None Include="Resources\drawable\drawable\ic_placeholder.png" />
+    <None Include="Resources\drawable\drawable\ic_refresh.png" />
+    <None Include="Resources\drawable\drawable\ic_save.png" />
+    <None Include="Resources\drawable\drawable\ic_settings_black_24dp.png" />
+    <None Include="Resources\drawable\drawable\ic_time_to_leave_black_24dp.png" />
+    <None Include="Resources\drawable\drawable\ic_work_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable\ic_business.png" />
+    <AndroidResource Include="Resources\drawable\ic_delete.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\.DS_Store" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_library_books_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_local_gas_station_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_my_location_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_person_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_settings_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_time_to_leave_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_work_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_library_books_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_local_gas_station_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_my_location_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_person_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_settings_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_time_to_leave_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_work_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_library_books_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_local_gas_station_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_my_location_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_person_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_settings_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_time_to_leave_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_work_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_library_books_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_local_gas_station_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_my_location_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_person_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_settings_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_time_to_leave_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_work_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\.DS_Store" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_library_books_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_local_gas_station_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_my_location_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_person_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_settings_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_time_to_leave_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_work_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_delete.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_new.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_placeholder.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_refresh.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_save.png" />
+    <AndroidResource Include="Resources\drawable\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable\ic_library_books_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable\ic_local_gas_station_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable\ic_my_location_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable\ic_new.png" />
+    <AndroidResource Include="Resources\drawable\ic_person_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable\ic_placeholder.png" />
+    <AndroidResource Include="Resources\drawable\ic_refresh.png" />
+    <AndroidResource Include="Resources\drawable\ic_save.png" />
+    <AndroidResource Include="Resources\drawable\ic_settings_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable\ic_time_to_leave_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable\ic_work_black_24dp.png" />
+    <AndroidResource Include="Resources\menu\VehicleDetailMenu.xml" />
+    <AndroidResource Include="Resources\layout\VehicleListFragment.axml" />
+    <AndroidResource Include="Resources\layout\TripListItem.axml" />
+    <AndroidResource Include="Resources\layout\DVELHome.axml" />
+    <AndroidResource Include="Resources\layout\VehicleList.axml" />
+    <AndroidResource Include="Resources\layout\TripsFragment.axml" />
+    <AndroidResource Include="Resources\layout\TripListFragment.axml" />
+    <AndroidResource Include="Resources\layout\TripDetailFragment.axml" />
+    <AndroidResource Include="Resources\layout\TripDetails.axml" />
+    <AndroidResource Include="Resources\menu\menu_fragement_list.xml" />
+    <AndroidResource Include="Resources\layout\businessExpFragment.axml" />
+    <AndroidResource Include="Resources\layout\BusinessExpListItem.axml" />
+    <AndroidResource Include="Resources\layout\tripfragment.axml" />
+    <AndroidResource Include="Resources\layout\vehicleExpFragment.axml" />
+    <AndroidResource Include="Resources\layout\VehicleExpListItem.axml" />
+    <AndroidResource Include="Resources\layout\VehicleListItem.axml" />
+    <AndroidResource Include="Resources\layout\VehicleDetailsFragment.axml" />
+    <AndroidResource Include="Resources\layout\VehicleDetail.axml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Assets\Fonts\" />
+    <Folder Include="Resources\menu\" />
+    <Folder Include="Resources\drawable\drawable\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Fonts\fontawesome-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="json.net">
+      <Version>7.0.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+</Project>

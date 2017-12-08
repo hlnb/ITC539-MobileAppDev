@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/actionNew"
+       android:icon="@drawable/ic_new"
+       android:title="New Trip"/>
+     <item android:id="@+id/add_vehicle"
+     	android:icon="@drawable/ic_time_to_leave_black_24dp"
+     	android:title="Add Vehicle"/>
+     <item android:id="@+id/actionRefresh"
+       android:icon="@drawable/ic_refresh"
+       android:title="Refresh" />
+</menu>
+

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VEL", "VEL\VEL.csproj", "{4585FCC6-BA2D-485E-915F-38CA0A3894F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VEL.UITests", "VEL.UITests\VEL.UITests.csproj", "{7594E8D8-461A-4CE8-BDF7-998B5C890EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VELTestApp", "VELTestApp\VELTestApp.csproj", "{C2F9E565-C054-4F87-A46F-8D925A484948}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4585FCC6-BA2D-485E-915F-38CA0A3894F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4585FCC6-BA2D-485E-915F-38CA0A3894F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4585FCC6-BA2D-485E-915F-38CA0A3894F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4585FCC6-BA2D-485E-915F-38CA0A3894F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7594E8D8-461A-4CE8-BDF7-998B5C890EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7594E8D8-461A-4CE8-BDF7-998B5C890EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7594E8D8-461A-4CE8-BDF7-998B5C890EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7594E8D8-461A-4CE8-BDF7-998B5C890EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F9E565-C054-4F87-A46F-8D925A484948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F9E565-C054-4F87-A46F-8D925A484948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F9E565-C054-4F87-A46F-8D925A484948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F9E565-C054-4F87-A46F-8D925A484948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

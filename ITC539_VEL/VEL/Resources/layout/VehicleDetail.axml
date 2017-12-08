@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/scrollView1">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/linearLayout1"
+        p1:padding="5dp">
+        <TextView
+            p1:text="Make"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/makeTextView" />
+        <EditText
+            p1:inputType="textCapWords"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/makeEditText" />
+        <TextView
+            p1:text="Model"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/modelTextView" />
+        <EditText
+            p1:inputType="textCapWords"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/modelEditText" />
+        <TextView
+            p1:text="Engine Type"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/engineTextView" />
+        <EditText
+            p1:inputType="numberDecimal"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/engineEditText" />
+        <TextView
+            p1:text="Registration"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/regoTextView" />
+        <EditText
+            p1:inputType="text"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/regoEditText" />
+        <TextView
+            p1:text="Odometer"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/odoTextView" />
+        <EditText
+            p1:inputType="numberDecimal"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/odoEditText" />
+        <TextView
+            p1:text="Description"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/descrTextView" />
+        <EditText
+            p1:inputType="textMultiLine|textCapSentences"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/descrEditText" />
+        <CheckBox
+            p1:checked="false"
+            p1:text="Club Registered Vehicle"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/clubRegisteredCheckBox"
+            p1:hint="RAC, RACQ, NRMA RACV, RACSA etc" />
+    </LinearLayout>
+</ScrollView>

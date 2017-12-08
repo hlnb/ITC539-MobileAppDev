@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="wrap_content"
+    p1:id="@+id/vehicleExpRelativeLayout"
+    p1:background="@android:color/background_light">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout1"
+        p1:padding="5dp"
+        p1:layout_marginBottom="2dp">
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/dateLayout">
+            <TextView
+                p1:id="@+id/dateTextView"
+                p1:layout_width="match_parent"
+                p1:layout_height="95dp"
+                p1:width="65dp"
+                p1:height="65dp"
+                p1:padding="5dp"
+                p1:textSize="22sp"
+                p1:textColor="@android:color/holo_blue_dark"
+                p1:layout_gravity="center_horizontal"
+                p1:hint="date of expense" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/tripLayout"
+            p1:layout_toRightOf="@id/dateLayout">
+            <TextView
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/tripDescrTextView"
+                p1:hint="Expense Description - fuel oil etc"
+                p1:textSize="22sp"
+                p1:padding="5dp" />
+            <TableLayout
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/tableLayout1">
+                <TableRow
+                    p1:id="@+id/tableRow1"
+                    p1:padding="5dp">
+                    <TextView
+                        p1:text="Cost"
+                        p1:textSize="14sp"
+                        p1:padding="2dp"
+                        p1:id="@+id/textView1"
+                        p1:textColor="@android:color/holo_blue_dark"
+                        p1:textStyle="bold" />
+                    <EditText
+                        p1:text=""
+                        p1:textSize="14sp"
+                        p1:padding="2dp"
+                        p1:id="@+id/costEditText"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="wrap_content"
+                        p1:ems="10"
+                        p1:drawableBottom="@android:color/darker_gray" />
+                </TableRow>
+                <TableRow
+                    p1:id="@+id/tableRow2"
+                    p1:padding="5dp">
+                    <TextView
+                        p1:text="Odometer"
+                        p1:textSize="14sp"
+                        p1:padding="2dp"
+                        p1:id="@+id/odometerTextView"
+                        p1:textColor="@android:color/holo_blue_dark"
+                        p1:textStyle="bold" />
+                    <EditText
+                        p1:text=""
+                        p1:textSize="14sp"
+                        p1:padding="2dp"
+                        p1:id="@+id/odometerEditText"
+                        p1:textColor="@android:color/holo_blue_dark" />
+                </TableRow>
+                <TableRow
+                    p1:id="@+id/tableRow3"
+                    p1:padding="5dp">
+                    <TextView
+                        p1:text="Registration"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="wrap_content"
+                        p1:textColor="@android:color/holo_blue_dark"
+                        p1:textStyle="bold"
+                        p1:textSize="14sp"
+                        p1:id="@+id/vehRegoTextView" />
+                    <EditText
+                        p1:text=""
+                        p1:layout_width="match_parent"
+                        p1:layout_height="wrap_content"
+                        p1:id="@+id/vehicleRegoEditText"
+                        p1:textColor="@android:color/holo_blue_dark" />
+                </TableRow>
+            </TableLayout>
+            <CheckBox
+                p1:text="Business Expense"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/businessCheckBox"
+                p1:textColor="@android:color/holo_blue_dark"
+                p1:textSize="14sp"
+                p1:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

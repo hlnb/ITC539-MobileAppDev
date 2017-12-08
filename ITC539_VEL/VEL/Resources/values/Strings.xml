@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">The D.V.E.L.</string>
+	<string name="date_label">22 Sep</string>
+	<string name="description_hint">Trip Description</string>
+	<string name="start_odometer_label">Start Odometer: </string>
+	<string name="end_odometer_label">End Odometer: </string>
+	<string name="vehicle_used_hint">Vehicle Registration</string>
+	<string name="distance_label">Distance</string>
+
+	<!-- menu labels-->
+	<string name="triplist_tab_label">Trip List</string>
+	<string name="createtrip_tab_label">Create a Trip</string>
+	<string name="vehicleexpenses_tab_label">Vehicle Expenses</string>
+</resources>
